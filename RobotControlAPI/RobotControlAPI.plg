@@ -1,0 +1,142 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RobotControlAPI - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x404 /fo"Release/RobotControlAPI.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\user\Desktop\打鼓\RobotControlAPI\RobotControlAPI.rc"" 
+Creating temporary file "C:\Users\user\AppData\Local\Temp\RSP5556.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/RobotControlAPI.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp"
+"C:\Users\user\Desktop\打鼓\RobotControlAPI\MainFrm.cpp"
+"C:\Users\user\Desktop\打鼓\RobotControlAPI\RobotControlAPI.cpp"
+"C:\Users\user\Desktop\打鼓\RobotControlAPI\RobotControlAPIDoc.cpp"
+"C:\Users\user\Desktop\打鼓\RobotControlAPI\RobotControlAPIView.cpp"
+"C:\Users\user\Desktop\打鼓\RobotControlAPI\Serial.cpp"
+"C:\Users\user\Desktop\打鼓\RobotControlAPI\Set_Comm_Port.cpp"
+]
+Creating command line "cl.exe @C:\Users\user\AppData\Local\Temp\RSP5556.tmp" 
+Creating temporary file "C:\Users\user\AppData\Local\Temp\RSP5557.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/RobotControlAPI.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\user\Desktop\打鼓\RobotControlAPI\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\user\AppData\Local\Temp\RSP5557.tmp" 
+Creating temporary file "C:\Users\user\AppData\Local\Temp\RSP5558.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/RobotControlAPI.pdb" /machine:I386 /out:"Release/RobotControlAPI.exe" 
+".\Release\fwd_inv_knmtcs.obj"
+".\Release\MainFrm.obj"
+".\Release\RobotControlAPI.obj"
+".\Release\RobotControlAPIDoc.obj"
+".\Release\RobotControlAPIView.obj"
+".\Release\Serial.obj"
+".\Release\Set_Comm_Port.obj"
+".\Release\StdAfx.obj"
+".\Release\RobotControlAPI.res"
+]
+Creating command line "link.exe @C:\Users\user\AppData\Local\Temp\RSP5558.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+fwd_inv_knmtcs.cpp
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(60) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(61) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(109) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(111) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(120) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(122) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(123) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(128) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(129) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(133) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(151) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(165) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(178) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(185) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(329) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(333) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(480) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(481) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(493) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(497) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(524) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(525) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(547) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(548) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(549) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(550) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(551) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(552) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(555) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(556) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(557) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(558) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(559) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\fwd_inv_knmtcs.cpp(560) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+MainFrm.cpp
+RobotControlAPI.cpp
+RobotControlAPIDoc.cpp
+RobotControlAPIView.cpp
+C:\Users\user\Desktop\打鼓\RobotControlAPI\RobotControlAPIView.cpp(277) : error C2664: 'InsertString' : cannot convert parameter 2 from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\user\Desktop\打鼓\RobotControlAPI\RobotControlAPIView.cpp(826) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\RobotControlAPIView.cpp(851) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\user\Desktop\打鼓\RobotControlAPI\RobotControlAPIView.cpp(866) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+Serial.cpp
+Set_Comm_Port.cpp
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+RobotControlAPI.exe - 1 error(s), 37 warning(s)
+<h3>
+--------------------Configuration: RobotControlAPI - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x404 /fo"Debug/RobotControlAPI.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\user\Desktop\打鼓\RobotControlAPI\RobotControlAPI.rc"" 
+Creating temporary file "C:\Users\user\AppData\Local\Temp\RSP5D67.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/RobotControlAPI.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\user\Desktop\打鼓\RobotControlAPI\RobotControlAPIView.cpp"
+]
+Creating command line "cl.exe @C:\Users\user\AppData\Local\Temp\RSP5D67.tmp" 
+Creating temporary file "C:\Users\user\AppData\Local\Temp\RSP5D68.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/RobotControlAPI.pdb" /debug /machine:I386 /out:"Debug/RobotControlAPI.exe" /pdbtype:sept 
+".\Debug\fwd_inv_knmtcs.obj"
+".\Debug\MainFrm.obj"
+".\Debug\RobotControlAPI.obj"
+".\Debug\RobotControlAPIDoc.obj"
+".\Debug\RobotControlAPIView.obj"
+".\Debug\Serial.obj"
+".\Debug\Set_Comm_Port.obj"
+".\Debug\StdAfx.obj"
+".\Debug\RobotControlAPI.res"
+]
+Creating command line "link.exe @C:\Users\user\AppData\Local\Temp\RSP5D68.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+RobotControlAPIView.cpp
+C:\Users\user\Desktop\打鼓\RobotControlAPI\RobotControlAPIView.cpp(277) : error C2664: 'InsertString' : cannot convert parameter 2 from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\user\Desktop\打鼓\RobotControlAPI\RobotControlAPIView.cpp(826) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\打鼓\RobotControlAPI\RobotControlAPIView.cpp(851) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\user\Desktop\打鼓\RobotControlAPI\RobotControlAPIView.cpp(866) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+RobotControlAPI.exe - 1 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
